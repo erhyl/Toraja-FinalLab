@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Toraja_Acitvity5
+namespace Toraja_FinalLab
 {
     public partial class SummaryForm : Form
     {
@@ -25,23 +25,20 @@ namespace Toraja_Acitvity5
 
             this.Text = "Home Sales Summary Report";
 
-            lblDanielle.Text = "Danielle:  " + danielle.ToString(" ₱#,##0.00");
-            lblEdward.Text = "Edward:  " + edward.ToString(" ₱#,##0.00");
-            lblFatima.Text = "Fatima:  " + fatima.ToString(" ₱#,##0.00") + "\n" +
-                "--------------------------------\n";
-            lblTotal.Text = "Total Sales:  " + totalSales.ToString(" ₱#,##0.00");
+            lblDanielle.Text = "Danielle:  " + danielle.ToString("₱#,##0.00");
+            lblEdward.Text = "Edward:  " + edward.ToString("₱#,##0.00");
+            lblFatima.Text = "Fatima:  " + fatima.ToString("₱#,##0.00");
+
+            lblTotal.Text = "Total Sales:  " + totalSales.ToString("₱#,##0.00");
         }
 
         private void SummaryForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void lblFatima_Click(object sender, EventArgs e)
         {
-
         }
     }
-
-    }
+}
 

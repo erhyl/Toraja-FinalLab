@@ -1,4 +1,4 @@
-﻿namespace Toraja_Acitvity5
+﻿namespace Toraja_FinalLab
 {
     partial class Form1
     {

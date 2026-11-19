@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Toraja_Acitvity5
+namespace Toraja_FinalLab
 {
     internal static class Program
     {
